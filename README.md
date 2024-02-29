@@ -22,6 +22,8 @@ Feel free to explore the source code, documentation, and resources provided. Ple
 # Contribution
 Contributions to this repository are welcome! If you have code snippets, documentation, or resources related to malware development that you would like to contribute, feel free to open a pull request. Please ensure that all contributions comply with the repository's educational purposes and guidelines.
 
+# License
+This repository is licensed under the [MIT](LICENSE) License. By accessing or using the code and resources provided in this repository, you agree to abide by the terms and conditions of the license.
 
 # Contact
 If you have any questions, suggestions, or concerns regarding this repository, please feel free to contact myself or open an issue.
