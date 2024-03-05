@@ -19,10 +19,10 @@ PROCESS_INFORMATION PI = { 0 };
         &SI,
         &PI
     ))     {
-        printf("(-) Process did not start :(. Error: %ld", GetLastError());
+        printf("[-] Process did not start :(. Error: %ld", GetLastError());
         return EXIT_FAILURE;
     }
 
-    printf("(+) Process started! PID: %ld\n", PI.dwProcessId);
+    printf("[+] Process started! PID: %ld\n", PI.dwProcessId);
     return EXIT_SUCCESS;
 }
