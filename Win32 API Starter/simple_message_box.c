@@ -17,11 +17,8 @@ int main(){
     int msgBox = DisplayMessageBox();
     printf("Message Box Return Value: %ld\n", msgBox);
 
-    if (msgBox == 1){
+    while (msgBox == 1){
         DisplayMessageBox();
-    }else{
-        printf("(-) Window did not open :(. Error: %ld", GetLastError());
-        return EXIT_FAILURE;
     }
     return EXIT_SUCCESS;
 }
